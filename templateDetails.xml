@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="3.5" type="template">
+<extension version="3.6.2" type="template">
 	<name>makerstudios2016</name>
 	<creationDate>2016-08-30</creationDate>
 	<author>Lauren Grant</author>
@@ -20,7 +20,7 @@
 	<positions>
 		<position>mast</position>
 		<position>header</position>
-		<position>left</position>
+		<!-- <position>left</position> -->
 		<position>position-1</position>
 		<position>position-2</position>
 		<position>position-3</position>

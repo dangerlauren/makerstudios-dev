@@ -87,7 +87,7 @@
 		var $allVideos = $("iframe"),
 
     	// The element that is fluid width
-    	$fluidEl = $(".custom-video, div.item-page, div.blog, div.blog-undergrad, div.blog-news, div.item-pagealumprofiles, .item-page-undergrad, div.item-page-news, div.undergradprograms.undergradprograms");
+    	$fluidEl = $(".custom-video .custom-video, div.item-page, div.blog, div.blog-news");
 
 		// Figure out and save aspect ratio for each video
 		$allVideos.each(function() {
