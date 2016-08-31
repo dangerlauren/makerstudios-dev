@@ -43,7 +43,7 @@ $doc->addScript($this->baseurl.'/templates/'.$this->template.'/javascript/makers
 			<jdoc:include type="modules" name="mast" style="none" />
 		</div>
 		<div id="header">
-			<jdoc:include type="modules" name="test" style="none" />
+			<jdoc:include type="modules" name="search-header" style="none" />
 			<jdoc:include type="modules" name="header" style="none" />
 
 		</div>
@@ -54,7 +54,9 @@ $doc->addScript($this->baseurl.'/templates/'.$this->template.'/javascript/makers
 			<jdoc:include type="modules" name="position-1" style="none" />
 		</div>
 		<div id="position-2">
-			<jdoc:include type="modules" name="position-2" style="none" />
+			<div class="flex-float">
+				<jdoc:include type="modules" name="position-2" style="none" />
+			</div>
 		</div>
 		<div id="position-3">
 			<jdoc:include type="modules" name="position-3" style="none" />

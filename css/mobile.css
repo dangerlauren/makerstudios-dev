@@ -6,7 +6,7 @@
 
 @media (max-width: 413px) {
 
-	#submast .moduletable-mobilenav .menu-mobile {
+	.moduletable-mobilenav .menu-mobile {
 		margin-top: 1.85em;
 		width: 100%;
 	}
@@ -74,73 +74,12 @@
 
 	/* Flex */
 
-	/*.moduletable-flexcontrols {
-		display: block;
-		clear: both;
-	}*/
-
-	.moduletable-flexcontrols p {
-		/*display: block;*/
-		/*font-size: 1.2em;*/
-		/*line-height: 1em;*/
-		/*transform: scale(.65,2);*/
-		/*border: 2px solid #005e83;*/
-		/*padding: .25em;*/
+	.flex-float {
+		margin-bottom: 5.25%;
 	}
 
-/*	.moduletable-flexcontrols p.leftcontrol {
-		float: left;
-		margin: 22% 3% 0 5%;
-	}
-
-	.moduletable-flexcontrols p.rightcontrol {
-		float: right;
-		margin: 22% 5% 0 3%; 
-	}
-
-	.moduletable-flexcontrols p a {
-		text-decoration: none;
-		color: #3a3a3a;
-	}*/
-
-	/*.moduletable-flexcontrols #circleone {
-		background-color: #6d6e71;
-	}
-
-	.moduletable-flexcontrols .circlecontrol {
-		margin-left: 38%;
-	}
-
-	.moduletable-flexcontrols .circlecontrol li {
-		border-radius: 9px;
-		border: 1px solid #222;
-		color: transparent;
-		cursor: pointer;
-		display: block;
-		width: 9px;
-		height: 9px;
-		text-align: center;
-		float: left;
-		margin: 0 .5em 1.5em .5em;
-	}*/
-
-	.moduletable-flex {
-		display: none;
-		float: none;
-		width: auto;
-		max-width: 75%;
-	}
-
-	.moduletable-flex.one, .moduletable-flex.two {
-		margin: 0 13%;
-	}
-
-	.moduletable-flex.three {
-		margin-left: 13%; 
-	}
-
-	.moduletable-flex.one {
-		display: block;
+	.custom-flex.one {
+		margin-bottom: 2.5em;
 	}
 
 	.custom-flex .button-sm-blue-inv a {
@@ -148,15 +87,13 @@
 		font-size: .9em;
 	}
 
-	.moduletable-pullquote #quote img {
-		max-width: 60%;
-		padding-top: 8%;
+	.custom-video .custom-video, #footer {
+		padding-top: 7%;
+		padding-bottom: 7%;
 	}
 
-	.moduletable-pullquote #quotetext {
-		font-size: 1.25em;
-		padding: 8% 10% 15% 10%;
-		line-height: normal;
+	.custom-video .category-desc {
+		padding-bottom: 3.25%;
 	}
 
 	/* Academics */
