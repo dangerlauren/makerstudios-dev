@@ -23,11 +23,11 @@
 		});		
 	});
 
-	$(function(){
-		$('.moduletable-mobilenav').click(function(){
-			$('#submast .menu-mobile').slideToggle().toggleClass('expand');
-		})
-	});
+	// $(function(){
+	// 	$('.moduletable-mobilenav').click(function(){
+	// 		$('#submast .menu-mobile').slideToggle().toggleClass('expand');
+	// 	})
+	// });
 
 	$(function(){
 		$( '.moduletable-mobilenav h3' ).click(function(){
