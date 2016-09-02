@@ -44,6 +44,7 @@
 		$(window).on('resize', function() {
 			if ($(window).width() > 1000) {
 				$("#overlay").remove(".show");
+				$(".menu-mobile").slideToggle();
 			}
 		});
 	});
