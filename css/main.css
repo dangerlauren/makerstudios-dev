@@ -145,21 +145,21 @@ img, a img {
 }
 
 .custom-makerstudioslogo {
-	margin: 1.75em 3.25% 1.5em;
+	margin: 1.5em 3.25% 1.25em;
 	text-align: left;
-	/*background: url('/images/logo.jpg') no-repeat center center;*/
+	background: url('../images/makerstudioslogo.svg') no-repeat center center;
 	background-size: 100%;
-	/*width: 372px;*/
-	/*height: 88px;*/
+	width: 400px;
+	height: 95px;
 	cursor: pointer;
 	/*float: left;*/
 }
 
-.custom-makerstudioslogo a img {
+/*.custom-makerstudioslogo a img {
 	height: 70px;
-	/*max-width: 73%;*/
+	max-width: 73%;
 	float: left;
-}
+}*/
 
 .custom-makerstudioslogo span, .custom-utlogo span, .custom-cselogo span {
 	position: absolute !important;
@@ -173,7 +173,7 @@ img, a img {
 form .finder {
     width: 170px;
     float: right;
-    /*margin: 1.25em 3.25% 0 0;*/
+    margin-top: 1.2em;
     margin-right: 3.25%;
 }
 
@@ -292,9 +292,7 @@ form .finder input {
 }
 
 .moduletable-mobilenav .menu-mobile {
-	/*margin-top: 1.95em;*/
-	/*margin-top: 2.6em;*/
-	margin-top: 2.55em;
+	margin-top: 4.3em;
 	width: 50%;
 	overflow: hidden;
 }
@@ -329,7 +327,7 @@ form .finder input {
 	display: block;
 	opacity: .4;
 	position: absolute;
-	top: 111px;
+	top: 128px;
 	left: 0;
 	background-color: black;
 	width: 100%;

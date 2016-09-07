@@ -1,3 +1,8 @@
+.custom-makerstudioslogo {
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
 #mast, .moduletable-mainnav, .form-search {
 	display: none;
 }
@@ -110,7 +115,7 @@
 /* Body */
 
 .custom-homehero {
-	margin-top: 7em;
+	/*margin-top: 7em;*/
 	height: 500px;
 }
 
@@ -290,10 +295,6 @@
 }
 
 @media (max-width: 768px) {
-	
-	.custom-makerstudioslogo a img {
-		height: 50px;
-	}
 
 	.custom-contact {
 		padding-right: 6%;
@@ -302,8 +303,21 @@
 
 @media (max-width: 600px) {
 
+	.custom-makerstudioslogo {
+		background-size: 80%;
+		margin: .5em 1% .5em -3%;
+	}
+
+	.moduletable-mobilenav .nav {
+		margin-top: 3.8em;
+	}
+
 	.menu-mobile .search-box {
 		max-width: 91%;
+	}
+
+	#overlay.show {
+		top: 111px;
 	}
 
 	.custom-homehero .herotext {
@@ -359,4 +373,12 @@
 		width: 100%;
 		display: none;
 	}
+}
+
+@media (max-width: 600px) {
+
+	.custom-makerstudioslogo {
+		margin-left: -1.5em;
+	}
+
 }
