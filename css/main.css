@@ -645,6 +645,19 @@ form .finder input {
 	padding-top: 1em;*/
 }
 
+.facilities #ms1, .facilities #ms2, .facilities #ms3 {
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.facilities h2 + img {
+	padding-bottom: 2em;
+}
+
+.facilities #training {
+	border-top: 1px solid #e0e0e0;
+	padding-top: 1em;
+}
+
 /* Search */
 
 .finder h1 {
