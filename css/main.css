@@ -591,13 +591,24 @@ form .finder input {
 	max-width: 1000px;
 }
 
+.item-page.equip-detail, .item-page.equip-detail p {
+	max-width: none;
+}
+
 .item-page img {
 	width: 100%;
 }
 
-/*.item-page .halfvideo {
-	max-width: 45%;
-}*/
+.item-page .halfvideo {
+	width: 100%;
+}
+
+.item-page .halfvideo .halfvideo {
+	/*width: 80%;*/
+	max-width: 800px;
+	margin-right: 3.25%;
+	float: left;
+}
 
 .item-page iframe {
 	margin-bottom: 2em;
@@ -832,7 +843,7 @@ form .finder input {
 }
 
 .custom-utlinks {
-	margin-top: 30%;
+	margin-top: 10%;
 }
 
 .custom-utlinks p {
