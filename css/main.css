@@ -640,6 +640,10 @@ form .finder input {
 	line-height: 1.5em;
 }
 
+.equip .readmore {
+	width: 220px;
+}
+
 .equip div.item:nth-child(3n+1), .equip div.item:nth-child(3n+1) ~ div.item {
 	float: left;
 	width: 30%;
