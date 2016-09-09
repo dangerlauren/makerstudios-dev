@@ -103,6 +103,226 @@ img, a img {
 	display: none;
 }
 
+/*CAPTION STYLE*/
+.maincaption {
+	color: #53565F;
+	line-height: 1.625em;
+	letter-spacing: .01em;
+	font-size: .85em;
+	font-style: italic;
+	font-weight: 300;
+	padding: 0 .5em 2em 0;
+}
+
+.maincaption-right {
+	color: #53565F;
+	line-height: 1.625em;
+	letter-spacing: .01em;
+	font-size: .85em;
+	padding-bottom: 2em;
+	font-style: italic;
+	font-weight: 300;
+	text-align: right;
+}
+
+/*FLOAT STYLES*/
+.float-left {
+	float: left;
+	padding: .35em 1.5em 0 0;
+}
+
+.float-right {
+	float: right;
+	padding-left: .35em 0 0 1.5em;
+}
+
+/*IMAGE SCALING*/
+.news-image-scale {
+	min-width: 100%;
+	display: block;
+}
+
+/*BUTTON STYLES*/
+.button-sm-orange  {
+	color: #fff;
+	background: #bf5700;
+	letter-spacing: .01em;
+	font-weight: 700;
+	padding: .75em;
+}
+
+.button-sm-orange-inv  {
+	color: #bf5700;
+	background: #fff;
+	border: 3px solid;
+	letter-spacing: .01em;
+	font-weight: 700;
+	padding: .75em;
+}
+
+.button-sm-blue a {
+	color: #fff;
+	background: #005E83;
+	letter-spacing: .01em;
+	font-weight: 700;
+	padding: .75em;
+}
+
+.button-sm-blue-inv {
+	color: #005E83;
+	background: #fff;
+	border: 3px solid;
+	letter-spacing: .01em;
+	font-weight: 700;
+	padding: .75em;
+}
+
+.button-sm-green {
+	color: #fff;
+	background: #43695B;
+	letter-spacing: .01em;
+	font-weight: 700;
+	padding: .75em;
+}
+
+.button-sm-green-inv {
+	color: #43695B;
+	background: #fff;
+	border: 3px solid;
+	letter-spacing: .01em;
+	font-weight: 700;
+	padding: .75em;
+}
+
+.button-sm-yellow {
+	color: #fff;
+	background: #F2A900;
+	letter-spacing: .01em;
+	font-weight: 700;
+	padding: .75em;
+}
+
+.button-sm-yellow-inv {
+	color: #F2A900;
+	background: #fff;
+	border: 3px solid;
+	letter-spacing: .01em;
+	font-weight: 700;
+	padding: .75em;
+}
+
+.button-med-orange {
+	color: #fff;
+	background: #bf5700;
+	letter-spacing: .01em;
+	font-weight: 700;
+	padding: .5em 1.5em;
+	font-size: 1.2em;
+}
+
+.button-med-orange-inv {
+	color: #bf5700;
+	background: #fff;
+	border: 3px solid;
+	letter-spacing: .01em;
+	font-weight: 700;
+	padding: .5em 1.5em;
+	font-size: 1.2em;
+}
+
+.button-med-blue {
+	color: #fff;
+	background: #005E83;
+	letter-spacing: .01em;
+	font-weight: 700;
+	padding: .5em 1.5em;
+	font-size: 1.2em;
+}
+
+.button-med-blue-inv {
+	color: #005E83;
+	background: #fff;
+	border: 3px solid;
+	letter-spacing: .01em;
+	font-weight: 700;
+	padding: .5em 1.5em;
+	font-size: 1.2em;
+}
+
+.button-cta-orange {
+	color: #fff;
+	background: #bf5700;
+	letter-spacing: .05em;
+	font-weight: 700;
+	padding: .5em 1.5em;
+	font-size: 1.5em;
+	text-transform: uppercase; 
+}
+
+.button-cta-orange-inv {
+	color: #bf5700;
+	background: #fff;
+	border: 3px solid;
+	letter-spacing: .05em;
+	font-weight: 700;
+	padding: .5em 1.5em;
+	font-size: 1.5em;
+	text-transform: uppercase; 
+}
+
+.button-cta-blue {
+	color: #fff;
+	background: #005E83;
+	letter-spacing: .05em;
+	font-weight: 700;
+	padding: .5em 1.5em;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+
+.button-cta-blue-inv {
+	color: #005E83;
+	background: #fff;
+	border: 3px solid;
+	letter-spacing: .05em;
+	font-weight: 700;
+	padding: .5em 1.5em;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+
+/*LEARN MORE*/
+.learnmore {
+	font-style: italic;
+	font-family: "Georgia", serif;	
+	color: #bf5700;
+}
+
+/*BULLET STYLE*/
+.arrowbullet {
+	line-height: 1.5em;
+	color: #3a3a3a;
+	letter-spacing: .025em;
+	width: 40%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/*BLOCKQUOTE STYLE*/
+.blockquote {
+	font-style: italic;
+	font-size: 1.5em;
+	color: #85858D;
+	padding: 0 1.5em;
+	display: block;
+}
+
+/*TABLE STYLE*/
+.set-table-width {
+	max-width: 1000px;
+}
+
 /* Wrapper */
 #wrapper {
 	text-align: left;
@@ -388,7 +608,7 @@ form .finder input {
 	cursor: pointer;
 }
 
-.custom-homehero .herotext h1 span:after, .facilities .switch a:after {
+.custom-homehero .herotext h1 span:after, .facilities .switch a:after, .about .switch a:after {
 	content: '\02192'; 
 }
 
@@ -538,14 +758,9 @@ form .finder input {
 	padding: .75em;
 }
 
-.custom-flex .button-sm-blue-inv a {
-	color: #fff;
-	background: #005E83;
-	border: 1px solid;
-	letter-spacing: .01em;
-	font-weight: 600;
-	padding: .75em;
-	text-decoration: none;
+.fac1 .button-sm-blue, .fac2 .button-sm-blue, .fac3 .button-sm-blue {
+	float: right;
+	margin: 1em;
 }
 
 /* Body */
@@ -583,6 +798,10 @@ form .finder input {
 
 #left ul li a:hover {
 	color: #005E83;
+}
+
+.about .float-left img {
+	max-width: 350px;
 }
 
 .item-page , .blog, .category-list {
@@ -662,10 +881,26 @@ form .finder input {
 
 .facilities #ms1, .facilities #ms2, .facilities #ms3 {
 	border-bottom: 1px solid #e0e0e0;
+	min-height: 250px;
 }
 
-.facilities h2 + img {
+.facilities #ms1 h3, .facilities #ms2 h3, .facilities #ms3 h3 {
+	font-weight: 400;
+	color: #6e6f72;
+	font-size: .85em;
+	letter-spacing: .05em;
+}
+
+.facilities #ms1 h3 + p, .facilities #ms2 h3 + p, .facilities #ms3 h3 + p {
+	font-weight: 700;
+	color: #005E83;
+	margin-bottom: .5em;
+}
+
+.facilities  #ms1 img, .facilities #ms2 img, .facilities #ms3 img {
 	padding-bottom: 2em;
+	float: right;
+	max-width: 350px;
 }
 
 .facilities #training {
@@ -726,6 +961,62 @@ form .finder input {
 .finder #search-results ul li:last-of-type {
 	border-bottom: none;
 }
+
+/* Pagination*/
+
+.pagenav {
+	clear: both;
+	list-style: none;
+	margin-left: 0;
+}
+
+.pagenav .previous {
+	float: left;
+}
+
+.pagenav .previous:before {
+	content: '<<';
+	font-weight: 600;
+	color: #005E83;
+}
+
+.pagenav .next {
+	float: right;
+}
+
+.pagenav .next:after {
+	content: '>>';
+	font-weight: 600;
+	color: #005E83;
+}
+
+/*.tooltip {
+	display: none !important;
+}
+
+.blog-news .pagination, .search .pagination {
+	margin-top: 2em;
+    border-top: 1px solid #e0e0e0;
+    max-width: 1000px;
+}
+
+.blog-news .pagination .counter, .search .pagination .counter {
+    margin-top: 2em;
+}
+
+.blog-news .pagination ul, .search .pagination ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.blog-news .pagination ul li {
+    display: inline-block;
+    padding: 0 1em;
+}
+
+.blog-news .pagination ul li.pagination-start, .search .pagination ul li.pagination-start {
+    padding: 0;
+}*/
 
 /* Footer */
 
