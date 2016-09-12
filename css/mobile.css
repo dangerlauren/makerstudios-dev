@@ -99,6 +99,12 @@
 		font-size: 1.8em;
 	}
 
+	/* Equipment */
+
+	.equip .item .readmore {
+		margin-left: 18%;
+	}
+
 	/* Footer */
 
 	#footer {

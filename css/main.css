@@ -859,8 +859,14 @@ form .finder input {
 	line-height: 1.5em;
 }
 
+.equip .item .item-image {
+	text-align: center;
+}
+
 .equip .readmore {
 	width: 220px;
+	margin-left: 2.5em;
+	text-align: center;
 }
 
 .equip div.item:nth-child(3n+1), .equip div.item:nth-child(3n+1) ~ div.item {
@@ -868,7 +874,7 @@ form .finder input {
 	width: 30%;
 	height: 250px;
 	padding-bottom: 6em;
-	padding-right: 2em;
+	padding-right: 1em;
 }
 
 #position-6 {
@@ -981,7 +987,8 @@ form .finder input {
 }
 
 .pagenav .next {
-	float: right;
+	/*float: right;*/
+	margin-left: 35%;
 }
 
 .pagenav .next:after {

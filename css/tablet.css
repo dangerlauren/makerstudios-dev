@@ -198,6 +198,16 @@
 	margin: -1em 3.25% 3.25% 3.25%;
 }
 
+/* Equipment */
+
+.equip div.item:nth-child(2n+1), .equip div.item:nth-child(2n+1) ~ div.item {
+	width: 45%;
+}
+
+.equip .item .readmore {
+	margin-left: 6em;
+}
+
 /* Footer */
 
 #footer {
@@ -299,6 +309,10 @@
 	.custom-contact {
 		padding-right: 6%;
 	}	
+
+	.equip .item .readmore {
+		margin-left: 15%;
+	}
 }
 
 @media (max-width: 600px) {
@@ -306,6 +320,10 @@
 	.custom-makerstudioslogo {
 		background-size: 80%;
 		margin: .5em 1% .5em -3%;
+	}
+
+	.custom-makerstudioslogo {
+		margin-left: -1.5em;
 	}
 
 	.moduletable-mobilenav .nav {
@@ -322,6 +340,14 @@
 
 	.custom-homehero .herotext {
 		width: 80%;
+	}
+
+	.equip div.item:nth-child(n), .equip div.item:nth-child(n) ~ div.item {
+		width: 94%;
+	}
+
+	.equip .item .readmore {
+		margin-left: 28%;
 	}
 
 	#footer {
@@ -373,12 +399,4 @@
 		width: 100%;
 		display: none;
 	}
-}
-
-@media (max-width: 600px) {
-
-	.custom-makerstudioslogo {
-		margin-left: -1.5em;
-	}
-
 }
