@@ -10,7 +10,7 @@
 .moduletable-mobilenav {
 	float: right;
 	text-align: right;
-	margin: 0 3.25% 0 0;
+	margin: 0 5.25% 0 0;
 	display: block;
 	cursor: pointer;
 }
@@ -108,8 +108,12 @@
 /* Breadcrumbs */
 
 .breadcrumb {
+	/*clear: both;
+	margin: 15% 5.25% 2.25% 3.25%;*/
 	clear: both;
-	margin: 15% 5.25% 2.25% 3.25%;
+    margin: 1% 5.25% 2.25% 3.25%;
+    border-top: 1px solid #eaeaea;
+    padding-top: 3%;
 }
 
 /* Body */
@@ -237,7 +241,7 @@
 
 .custom-resources {
     /*padding-top: 0; */
-    width: 24%;
+    width: 20%;
     font-size: .9em;
     margin-top: -.5%;
 }
@@ -313,6 +317,17 @@
 	.equip .item .readmore {
 		margin-left: 15%;
 	}
+
+	.pagenav {
+		font-size: .9em;
+	}
+}
+
+@media (max-width: 700px) {
+	.pagenav .previous, .pagenav .next {
+		float: none;
+		text-align: center;
+	}
 }
 
 @media (max-width: 600px) {
@@ -348,6 +363,13 @@
 
 	.equip .item .readmore {
 		margin-left: 28%;
+	}
+
+	.facilities #ms1 img, .facilities #ms2 img, .facilities #ms3 img {
+		float: none;
+		padding-bottom: 0;
+		padding-top: 1em;
+		padding-left: 0;
 	}
 
 	#footer {
@@ -398,5 +420,12 @@
 		clear: both;
 		width: 100%;
 		display: none;
+	}
+}
+
+@media (max-width: 475px) {
+	.custom-makerstudioslogo {
+		background-size: 65%;
+		margin: .5em 1% -.5em -13%;
 	}
 }

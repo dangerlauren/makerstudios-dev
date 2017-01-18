@@ -905,6 +905,7 @@ form .finder input {
 
 .facilities  #ms1 img, .facilities #ms2 img, .facilities #ms3 img {
 	padding-bottom: 2em;
+	padding-left: 2em;
 	float: right;
 	max-width: 350px;
 }
@@ -987,8 +988,8 @@ form .finder input {
 }
 
 .pagenav .next {
-	/*float: right;*/
-	margin-left: 35%;
+	float: right;
+	/*margin-left: 35%;*/
 }
 
 .pagenav .next:after {
@@ -1085,7 +1086,7 @@ form .finder input {
 }
 
 .custom-resources h2 {
-	font-size: .95em;
+	font-size: 1em;
 	letter-spacing: .025em;
 }
 
