@@ -124,7 +124,7 @@
 }
 
 .custom-homehero .herotext {
-	top: 65%;
+	top: 58%;
 }
 
 .custom-homehero .herotext h1 {
@@ -212,6 +212,23 @@
 	margin-left: 6em;
 }
 
+/* About */
+
+#news .news {
+	float: none;
+	border-right: none;
+	padding-right: 0;
+	margin: 3.25%;
+}
+
+#news .news img, #news .news p {
+	width: 100%;
+}
+
+.media {
+	margin: 0 3em 3.25% 3.25%;
+}
+
 /* Footer */
 
 #footer {
@@ -285,8 +302,12 @@
 }
 
 @media (max-width: 930px) {
-	.custom-flex.one {
+	.custom-flex.one, .custom-flex.club .club {
 		width: 93.5%
+	}
+
+	.club-image {
+		margin-bottom: 4%;
 	}
 
 	.flex-float {
@@ -354,7 +375,8 @@
 	}
 
 	.custom-homehero .herotext {
-		width: 80%;
+		width: 94%;
+		top: 54%;
 	}
 
 	.equip div.item:nth-child(n), .equip div.item:nth-child(n) ~ div.item {
@@ -367,7 +389,7 @@
 
 	.facilities #ms1 img, .facilities #ms2 img, .facilities #ms3 img {
 		float: none;
-		padding-bottom: 0;
+		/*padding-bottom: 0;*/
 		padding-top: 1em;
 		padding-left: 0;
 	}
@@ -427,5 +449,9 @@
 	.custom-makerstudioslogo {
 		background-size: 65%;
 		margin: .5em 1% -.5em -13%;
+	}
+
+	.custom-flex.club h3 {
+		margin-top: 0;
 	}
 }

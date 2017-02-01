@@ -57,11 +57,12 @@
 	/* Hero */
 
 	.custom-homehero .herotext {
-		width: 310px;
+		width: 368px;
+		top: 44%;
 	}
 
 	.custom-homehero .herotext h1 {
-		font-size: 18px;
+		font-size: 16px;
 	}
 
 	/* Flex */
