@@ -449,7 +449,7 @@ form .finder input {
 	display: inline-block;
 	font-size: .87em;
 	letter-spacing: .1em;
-	margin: 0 3.2em;
+	margin: 0 2.1em;
 	text-transform: uppercase;
 }
 
@@ -774,18 +774,44 @@ form .finder input {
 	padding-top: 2em;
 }
 
+.howit, .howit2 {
+	margin: 2% 0;
+}
+
 .custom-howit {
 	width: 100%;
 	padding: 1.7%;
 	float: left;
 	/*border-top: 1px solid #eaeaea;*/
-
+	background-color: #eaeaea;
 }
 
-.howit .image {
-	background-image: url('../images/maker-background.jpeg');
-	max-width: 50%;
+.howit h3 {
 	float: left;
+    margin: 0% 6% 1.5% 4%;
+    padding: 12% 10% 12% 10%;
+    color: #fff;
+    font-size: 2em;
+    background-color: #005e83;
+    border-radius: 55%;
+}
+
+/*.howit p:after {
+	content: '   \02192';
+}*/
+
+.custom-howit .category-desc p {
+	max-width: none;
+}
+
+.custom-howit .category-desc p span {
+	/*color: #bf5700;*/
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.howit2 {
+
 }
 
 #news .news {
@@ -806,25 +832,6 @@ form .finder input {
 
 #news .media h2 {
 	padding: 1em 0 0;
-}
-
-/*.howit h3 {
-	text-align: center;
-	background-color: #005E83;
-	color: #fff;
-	border-radius: 80px;
-	padding: 3em 1.5em;
-	letter-spacing: .01em;
-	max-width: 100px;
-	margin-left: 44%;
-}*/
-
-.custom-howit .category-desc p span {
-	/*color: #fff;
-	background-color: #bf5700;
-	padding: .7em 1em;
-	border-radius: 22px;
-	font-weight: 600;*/
 }
 
 .clear {
