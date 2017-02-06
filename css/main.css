@@ -780,7 +780,7 @@ form .finder input {
 
 .custom-howit {
 	width: 100%;
-	padding: 1.7%;
+	padding: 1.7% 1.7% 1.7% 0;
 	float: left;
 	/*border-top: 1px solid #eaeaea;*/
 	background-color: #eaeaea;
@@ -805,15 +805,109 @@ form .finder input {
 }
 
 .custom-howit .category-desc p span {
-	/*color: #bf5700;*/
-	font-weight: 700;
-	text-transform: uppercase;
+	/*color: #fff;*/
+    font-weight: 700;
+    /*background-color: #005e83;*/
+    border-radius: 50%;
+    /*padding: .6em 1em;*/
+    /*margin-right: 1em;*/
 }
 
 .howit2 {
-
+	margin-left: 1.5%;
 }
 
+.howit2 h3 {
+	max-width: none;
+    position: absolute;
+    left: 133px;
+    top: 1895px;
+    color: #fff;
+    font-size: 3em;
+}
+
+.howit2 .image {
+	float: left;
+	max-width: 30%;
+	margin-right: 4em;
+	margin-bottom: 2%;
+}
+
+.howit2 img, .howit3 img, .howit4 img {
+	max-width: 100%;
+	border-radius: 50%;
+}
+
+/*.howit2 .img:hover {
+	width: 110%;
+	height: 110%;
+	border-radius: 0;
+}*/
+
+.howit3 .image, .howit4 .image {
+	max-width: 30%;
+	margin: auto auto 5%;
+}
+
+.howit3 .category-desc, .howit4 .category-desc {
+	text-align: center;
+	margin: 0 auto;
+	max-width: 30%;
+	clear: both;
+}
+
+.howit3 .category-desc p {
+	margin-bottom: 3em;
+}
+.custom-howit .howit3 .category-desc p span {
+	color: #fff;
+    font-weight: 700;
+    background-color: #005e83;
+    border-radius: 50%;
+    padding: .6em 1em;
+    margin-right: 1em;
+}
+
+.howit4 {
+	max-width: 100%;
+	margin:	0 auto;
+}
+
+.howit4 .category-desc p {
+	margin-bottom: 0;
+}
+
+.howit4 .text {
+	border: 1px solid #005e83;
+	border-radius: 5px;
+	padding: 2em 4em;
+	max-width: 100%;
+	margin-bottom: 2em;
+}
+
+.howit4 .container {
+	margin: 0 auto;
+	max-width: 70%;
+}
+
+/*.howit4 .container.one {
+	max-width: 46%;
+}
+
+.howit4 .container.two {
+	max-width: 38%;
+}*/
+
+.howit4 .container .text {
+	max-width: 100%;
+	float: left;
+	text-align: center;
+}
+
+/*.howit4 .container .text.two, .howit4 .container .text.five {
+	float: left;
+}
+*/
 #news .news {
 	margin: 0 3em 3.25% 3.25%;
 	padding-right: 3em;
