@@ -783,7 +783,7 @@ form .finder input {
 	padding: 1.7% 1.7% 1.7% 0;
 	float: left;
 	/*border-top: 1px solid #eaeaea;*/
-	background-color: #eaeaea;
+	/*background-color: #eaeaea;*/
 }
 
 .howit h3 {
@@ -908,6 +908,137 @@ form .finder input {
 	float: left;
 }
 */
+
+/*.howit5 {
+	background-color: #bf5700;
+}*/
+
+.custom-howit {
+	padding-bottom: 0;
+	/*background-color: #eaeaea;*/
+	border-top: 1px solid #eaeaea;
+
+}
+
+.howit5 {
+	/*background-color: #005e83;*/
+	/*padding: 1.25em 0 1em;*/
+	border-top: 2px solid #005e83;
+	border-bottom: 2px solid #005e83;
+	padding-top: 2em;
+}
+
+.howit5 h1, .howit6 h1, .howit7 h1 {
+	text-align: center;
+	margin: .5em 0 1.25em;
+	text-transform: uppercase;
+	font-weight: 400;
+	/*color: #fff;*/
+}
+
+.howit5 span, .howit6 span, .howit7 span {
+	font-weight: 400;
+	color: #005e83;
+	font-size: 2em;
+}
+
+/*.howit7 span {
+	text-shadow: rgba(0,0,0,0.1) -1px 0, rgba(0,0,0,0.1) 0 -1px,
+	rgba(255,255,255,0.1) 1px 0, rgba(255,255,255,0.1) 0 1px,
+	rgba(0,0,0,0.1) -1px -1px, rgba(255,255,255,0.1) 1px 1px; 
+	color: #005e83;
+	background: #005e83;
+}*/
+
+.howit5 .container div.text:nth-child(3n+1), .howit5 .container div.text:nth-child(3n+1) ~ div {
+    float: left;
+    width: 33.1%;
+    height: 180px;
+    padding-top: 3em;
+    text-align: center;
+    border: 1px solid #005e83;
+}
+
+.howit6 .container div.text:nth-child(3n+1), .howit6 .container div.text:nth-child(3n+1) ~ div {
+    float: left;
+    width: 33.1%;
+    height: 180px;
+    text-align: center;
+}
+
+.howit7 .container {
+	width: 100%;
+	margin: 0 12.5%;
+}
+
+.howit7 .container div.text:nth-child(3n+1), .howit7 .container div.text:nth-child(3n+1) ~ div {
+    float: left;
+    width: 25%;
+    height: 180px;
+    text-align: center;
+    border-style: solid;
+    border-color: #005e83;
+    padding-top: 3%;
+}
+
+.howit7 .container div.text.one, .howit7 .container div.text.two {
+	border-width: 1px 0 0 1px;
+}
+
+.howit7 .container div.text.four, .howit7 .container div.text.five {
+	border-width: 1px 0 1px 1px;
+}
+
+.howit7 .container div.text.three {
+	border-width: 1px 1px 0 1px;
+}
+
+.howit7 .container div.text.six {
+	border-width: 1px 1px 1px 1px;
+}
+
+.howit5 .container .text p, .howit6 .container .text p, .howit7 .container .text p, .howit7 div.seven p {
+	max-width: none;
+	margin-top: 1em;
+}
+
+.howit7 div.seven p {
+	font-weight: 400;
+}
+
+.howit5 .container div.text:last-of-type {
+	width: 100% !important;
+	text-align: center;
+	font-size: 2em;
+	color: #bf5700;
+	border-bottom: 2px solid #005e83 !important;
+}
+
+.howit6 .container div.text:last-of-type {
+	width: 100% !important;
+	text-align: center;
+	font-size: 2em;
+	color: #bf5700;
+	/*border-bottom: 2px solid #005e83 !important;*/
+}
+
+.howit7 div.seven {
+	width: 100% !important;
+	text-align: center;
+	font-size: 2em;
+	color: #bf5700;
+	border: none !important;
+	clear: both;
+	text-transform: uppercase;
+	padding-top: 1%;
+}
+
+.howit5 .container div.text:last-of-type p, .howit6 .container div.text:last-of-type p/*, .howit7 .container div.text:last-of-type p*/ {
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+
 #news .news {
 	margin: 0 3em 3.25% 3.25%;
 	padding-right: 3em;
