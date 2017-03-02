@@ -230,7 +230,7 @@ img, a img {
 	font-size: 1.2em;
 }
 
-.button-med-blue {
+.button-med-blue a {
 	color: #fff;
 	background: #005E83;
 	letter-spacing: .01em;
@@ -588,7 +588,7 @@ form .finder input {
 
 .custom-homehero .herotext {
 	position: absolute;
-	top: 57%;
+	top: 71%;
 	left: 3.25%;
 	width: 750px;
 	letter-spacing: .01em;
@@ -959,11 +959,25 @@ form .finder input {
     border: 1px solid #005e83;
 }
 
+.howit6 {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+.howit6 .container {
+	width: 100%;
+	margin: 0 10%;
+}
+
 .howit6 .container div.text:nth-child(3n+1), .howit6 .container div.text:nth-child(3n+1) ~ div {
     float: left;
-    width: 33.1%;
-    height: 180px;
+    width: 300px;
+    height: 208px;
     text-align: center;
+    border: 1px solid #005E83;
+    border-radius: 155px;
+    padding-top: 95px;
+    margin: 0 50px 44px 0;
 }
 
 .howit7 .container {
@@ -1014,12 +1028,12 @@ form .finder input {
 	border-bottom: 2px solid #005e83 !important;
 }
 
-.howit6 .container div.text:last-of-type {
+.howit6 .seven {
 	width: 100% !important;
 	text-align: center;
 	font-size: 2em;
 	color: #bf5700;
-	/*border-bottom: 2px solid #005e83 !important;*/
+	margin: 0 10%;	
 }
 
 .howit7 div.seven {
@@ -1033,7 +1047,7 @@ form .finder input {
 	padding-top: 1%;
 }
 
-.howit5 .container div.text:last-of-type p, .howit6 .container div.text:last-of-type p/*, .howit7 .container div.text:last-of-type p*/ {
+.howit5 .container div.text:last-of-type p, .howit6 .seven p /*, .howit7 .container div.text:last-of-type p*/ {
 	font-weight: 400;
 	text-transform: uppercase;
 }
@@ -1072,7 +1086,7 @@ form .finder input {
 }
 
 .fac1 .button-sm-blue, .fac2 .button-sm-blue, .fac3 .button-sm-blue {
-	/*float: right;*/
+	/*float: right;
 	/*margin: -3.5em 1em 2em;*/
 	margin-top: 2.5em;
 }
@@ -1301,6 +1315,14 @@ form .finder input {
 
 .finder #search-results ul li:last-of-type {
 	border-bottom: none;
+}
+
+.custom-suggestions {
+	margin: 3.25%;
+	padding: 2em;
+	border: 1px solid #005e83;
+	border-radius: 5px;
+	max-width: 500px;
 }
 
 /* Pagination*/
