@@ -72,6 +72,9 @@ $doc->addScript($this->baseurl.'/templates/'.$this->template.'/javascript/makers
 		<div id="position-6">
 			<jdoc:include type="modules" name="position-6" style="none" />
 		</div>
+		<div id="news">
+			<jdoc:include type="modules" name="news" style="none" />
+		</div>
 		<div id="footer">
 			<jdoc:include type="modules" name="footer" style="none" />
 		</div>
