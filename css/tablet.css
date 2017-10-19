@@ -311,8 +311,8 @@
 	}
 
 	.flex-float {
-		width: 91.5%;
-		margin: 0 5.25% 1.25% 3.25%;
+		width: 93.5%;
+		margin: 0 3.25% 1.25% 3.25%;
 	}
 
 	#position-5 + .custom-video {
@@ -453,5 +453,10 @@
 
 	.custom-flex.club h3 {
 		margin-top: 0;
+	}
+
+	.fac1 .button-sm-blue, .fac2 .button-sm-blue, .fac3 .button-sm-blue {
+		margin-top: 2.5em;
+		float: none;
 	}
 }

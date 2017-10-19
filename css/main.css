@@ -399,16 +399,19 @@ img, a img {
 
 .custom-give2 {
 	text-transform: uppercase;
+	width: 100%;
+	float: left;
 	/*margin: 3% 0 7% 0;*/
 }
 
 .custom-give2 p {
 	text-align: center;
 	padding: 1.5em 0;
+	margin-top: 1em;
 }
 
 .custom-give2 a {
-	color: #bf5700;
+	color: #ffffff;
 }
 
 .clubgive {
@@ -628,35 +631,38 @@ form .finder input {
 
 .custom-homehero {
 	position: relative;
-	height: 650px;
+	height: 500px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center top;
-	background-image: url('../images/makerstudios3.jpg');
+	background-image: url('../images/newhero2.jpg');
 	margin-bottom: 2em;
 }
 
 .custom-homehero .herotext {
 	position: absolute;
-	top: 71%;
+	/*top: 71%;*/
+	top: 58%;
 	left: 3.25%;
 	width: 750px;
 	letter-spacing: .01em;
 }
 
 .custom-homehero .herotext h1 {
-	color: #005E83;
+	/*color: #005E83;*/
 	font-size: 24px;
 	font-weight: 600;
 	/*text-shadow: 1px 1px #6d6e71;*/
 	margin-bottom: 1.5em;
 	padding: 3.25%;
-	background-color: rgba(255, 255, 255, .85);
+	/*background-color: rgba(255, 255, 255, .85);*/
+	background-color: rgba(0, 94, 131, .75);
 }
 
 .custom-homehero .herotext h1 a {
 	text-decoration: none;
 	cursor: pointer;
+	color: #fff;
 }
 
 .custom-homehero .herotext h1 span:after, .training .switch a:after, .about .switch a:after, .news p a:after {
@@ -790,10 +796,11 @@ form .finder input {
 	font-size: 1.125em;
 	font-weight: 700;
 	margin-bottom: 1.4em;
-	max-width: 320px;
+	/*max-width: 320px;*/
 	/*color: #3a3a3a;*/
 	/*color: #6d6e71;*/
 	color: #005E83;
+	max-width: 350px;
 }
 
 .custom-flex .category-desc {
@@ -1146,8 +1153,8 @@ form .finder input {
 
 .fac1 .button-sm-blue, .fac2 .button-sm-blue, .fac3 .button-sm-blue {
 	margin-top: 2.5em;
-	/*float: right;*/
-	/*margin: -3.5em 3% 1em 0;*/
+	float: right;
+	margin: -3.5em 3% 1em 0;
 }
 
 /* Body */
@@ -1276,6 +1283,10 @@ form .finder input {
 	border-bottom: 1px solid #e0e0e0;
 	min-height: 250px;
 	padding-top: 1.5em;
+}
+
+.facilities #ms2 {
+	border-bottom: none;
 }
 
 .facilities #ms3 {
@@ -1470,7 +1481,7 @@ form .finder input {
 	letter-spacing: .025em;
 	line-height: 1.5em;
 	display: inline-block;
-	padding: 1em 3% 0 0;
+	padding: 1.25em 3% 0 0;
 	float: left;
 	margin-bottom: 1.5%;
 	width: 24%;
@@ -1576,6 +1587,12 @@ form .finder input {
 	text-align: right;
 }
 
+@media (max-width: 1100px) and (min-width: 931px) {
+	.fac1 .button-sm-blue, .fac2 .button-sm-blue, .fac3 .button-sm-blue {
+		font-size: .9em;
+	}
+}
+
 @media (max-width: 1330px) {
 	/*.fac1 .button-sm-blue, .fac2 .button-sm-blue, .fac3 .button-sm-blue {
 		float: none;
@@ -1584,7 +1601,7 @@ form .finder input {
 	}*/
 
 	.custom-flex.fac1, .custom-flex.fac2, .custom-flex.fac3 {
-		padding: 0 0 3% 5%;
+		padding: 0 3% 3% 3%;
 	}
 
 	.custom-flex.fac1, .custom-flex.fac2, .custom-flex.fac3 {
