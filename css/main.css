@@ -1119,6 +1119,10 @@ form .finder input {
 	border-top: 1px solid #eaeaea;
 }
 
+#news {
+	clear: both;
+}
+
 #news .news {
 	margin: 0 3em 3.25% 3.25%;
 	padding-right: 3em;
@@ -1279,21 +1283,23 @@ form .finder input {
 	padding-top: 1em;*/
 }
 
-.facilities #ms1, .facilities #ms2 {
+.facilities #ms1 {
 	border-bottom: 1px solid #e0e0e0;
 	min-height: 250px;
 	padding-top: 1.5em;
+	padding-bottom: 2em;
 }
 
 .facilities #ms2 {
-	border-bottom: none;
+	min-height: 250px;
+	padding-top: 1.5em;
 }
 
 .facilities #ms3 {
 	padding-top: 1.5em;
 }
 
-.facilities #ms1 h3, .facilities #ms2 h3, .facilities #ms3 h3 {
+.facilities #ms1 h3:first-of-type, .facilities #ms2 h3:first-of-type, .facilities #ms3 h3:first-of-type {
 	font-weight: 400;
 	color: #6e6f72;
 	font-size: .85em;
@@ -1301,11 +1307,13 @@ form .finder input {
 	margin-bottom: 1.5em;
 }
 
-/*.facilities #ms1 h3 + p, .facilities #ms2 h3 + p, .facilities #ms3 h3 + p {
-	font-weight: 700;
-	color: #005E83;
-	margin-bottom: .5em;
-}*/
+.facilities #ms1 h3.map-label, .facilities #ms2 h3.map-label {
+	margin-bottom: -.5em;
+	clear: both;
+	font-weight: 600;
+	color: #005e83;
+	letter-spacing: .05em;
+}
 
 .facilities #ms1 p:first-of-type, .facilities #ms2 p:first-of-type, .facilities #ms3 p:first-of-type {
 	font-weight: 700;
@@ -1315,16 +1323,31 @@ form .finder input {
 	margin-bottom: -1em;
 }
 
-.facilities  #ms1 img, .facilities #ms2 img, .facilities #ms3 img {
+.facilities  #ms1 img, .facilities #ms2 img {
+	border: 1px solid #eaeaea;
+	margin: 1em 0;
+}
+
+.facilities  #ms1 img:first-of-type, .facilities #ms2 img:first-of-type, .facilities #ms3 img:first-of-type {
 	padding-bottom: 2em;
 	padding-left: 2em;
 	float: right;
 	max-width: 350px;
+	border: none;
 }
 
 .facilities #training {
 	border-top: 1px solid #e0e0e0;
 	padding-top: 1em;
+}
+
+.courses h2 + p {
+	border-bottom: 1px solid #eaeaea;
+	padding-bottom: 2em;
+}
+
+.courses h2 + p:last-of-type {
+	border-bottom: none;
 }
 
 /*.faq p {
