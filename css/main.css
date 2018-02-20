@@ -1356,6 +1356,12 @@ form .finder input {
     padding-left: 1em;
 }*/
 
+.msfloormap {
+	display: none;
+	position: absolute;
+	border: 1px solid #000000;
+}
+
 /* Search */
 
 .finder h1 {

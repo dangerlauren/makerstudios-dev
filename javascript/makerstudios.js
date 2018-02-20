@@ -17,6 +17,17 @@
 		});
 	});
 
+	$(function() {
+	    $('#msfloor0map area').mouseenter(function() {
+	        $img = $("#" + $(this).data('div-id'));
+	        $img.stop(1, 1).show();
+	        console.log($img);
+	       
+	    }).mouseleave(function() {
+	        $img = $("#" + $(this).data('div-id'))
+	        $img.hide();
+    });
+
 	$(function(){
 		$( '.menuhead h3' ).click(function(){
 			$('#left .menu-subnav').slideToggle();
@@ -121,5 +132,7 @@
 		// Kick off one resize to fix all videos on page load
 		}).resize();
 	});
+
+});
 
 })(jQuery);
